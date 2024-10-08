@@ -3,7 +3,7 @@ import React from 'react';
 import QRCode from 'react-qr-code';
 
 const QuestionDisplay = ({ question, options, currentQuestionIndex, onOptionClick, registeredName }) => {
-    const qrValue = `http://localhost:3000/?questionIndex=${currentQuestionIndex}&name=${registeredName}`;
+    const qrValue = `https://qrsyncapp1r.onrender.com/?questionIndex=${currentQuestionIndex}&name=${registeredName}`;
 
     return (
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
